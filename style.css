@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    max-width: 1000px;
+    background-color: #aac8ca;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.my_photo {
+    width: 100px;
+    height: 120px;
+    border: 1px solid white;
+    border-radius: 50%;
+    float: left;
+}
+
+.header_bio {
+    float: left;
+    padding: 10px;
+    padding-left: 2%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #11999e;
+}
+
+.mail_bio {
+    float: right;
+    padding: 10px;
+    padding-right: 2%;
+}
+
+.mail_bio a {
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+
+.mail_bio a:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+
+.div_clear {
+    clear: both;
+}
+
+hr {
+    border: solid black 3px;
+    width: 100%;
+    margin: 10px auto;
+    border-bottom: none;
+}
+
+.personal_section_1 {
+    width: 30%;
+    float: left;
+}
+
+.personal_section_2 {
+    width: 70%;
+    float: right;
+}
+
+p {
+    font-size: 20px;
+}
+
+.commone_hr {
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.Education_01 {
+    float: right;
+    width: 35%;
+}
+
+.Education_02 {
+    float: right;
+    width: 35%;
+}
+
+.Education_03 {
+    float: right;
+    width: 70%;
+    text-align: center;
+}
+
+.bottom_conteiner {
+    background-color: black;
+    height: 70px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.bottom_conteiner a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: 15px;
+    float: left;
+    width: 40%;
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.facebook {
+    background-color: #0d20f6;
+    border-radius: 8px;
+    padding: 8px;
+    height: 37px;
+    width: 37px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.x {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 8px;
+    height: 37px;
+    width: 37px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: black;
+}
+
+.youtube {
+    background-color: #ff0000;
+    border-radius: 8px;
+    padding: 8px;
+    height: 37px;
+    width: 37px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: black;
+}
+
+.qr {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 8px;
+    height: 37px;
+    width: 37px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: black;
+}
